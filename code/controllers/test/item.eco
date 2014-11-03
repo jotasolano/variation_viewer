@@ -1,0 +1,9 @@
+<tr>
+  <td><%= @source or "No hay source" %></td>
+  <td><%= @datatype or "No hay source" %></td>
+  <td><%= @startaa or "No hay source" %></td>
+  <td><%= @endaa or "No hay source" %></td>
+  <td><%= @exonid or "No hay source" %></td>
+  <td><%= @startphase or "No hay source" %></td>
+  <td><%= @endphase or "No hay source" %></td>
+</tr>

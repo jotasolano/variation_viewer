@@ -1,0 +1,45 @@
+{
+	"name": "variation_viewer",
+	"description": "",
+	"version": "0.0.28",
+	"threevot": {
+		"version": "28",
+		"screens": {
+			"0-320": "main",
+			"320-900": "main",
+			"900-1200": "main",
+			"1200-5000": "main"
+		},
+		"extensions": [
+			".coffee",
+			".eco",
+			".html"
+		],
+		"transforms": [
+			"browserify-eco",
+			"brfs",
+			"uglifyify"
+		],
+		"external": {},
+		"gitDependencies": {},
+		"paths": {
+			"sourceBucket": "source.3vot.com",
+			"productionBucket": "3vot.com"
+		},
+		"uploadSource": true,
+		"distFolder": "dist",
+		"uploadApp": true,
+		"build": true,
+		"pathsToExclude": [
+			"node_modules"
+		]
+	},
+	"dependencies": {
+		"3vot": "0.1.4",
+		"3vot-model": "0.1.0",
+		"brfs": "0.0.8",
+		"browserify-eco": "~0.2.4",
+		"uglifyify": "~2.0.0",
+		"d3": "3.4.6"
+	}
+}

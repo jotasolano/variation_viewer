@@ -1,0 +1,70 @@
+<header>
+    <div class ="logoSection">
+      <img class="logo" src="{3vot}/assets/logo.png" alt="">
+      <!-- <h1 class=""> Sketchv3 </h1> -->
+    </div>
+
+    <div class="selectSection">
+      <label>Proteins: </label>
+      <select id="selectProtein" class="select-box">
+        <option> Please select a protein </option>
+      </select>
+    </div>
+
+</header>
+
+<section>
+  <div id="range">
+    <label>Range:</label>
+    <input type="text" id="rangeInput" readonly style="border:0">
+    <!-- <span class="tooltip tooltipfirst"></span>
+    <span class="tooltip tooltiplast"></span> -->
+    <div id="slider-range"></div>
+  </div>
+
+  <div id="domain">
+    <label>Domains</label>
+
+    <div id ="domainsLabels">
+      <span class="punto" style="color:#030303">●</span>
+      <span class="text" >PIRSF</span>
+      <span class="punto" style="color:#525252">●</span>
+      <span class="text" >Profile</span>
+      <span class="punto" style="color:#7d7d7d">●</span>
+      <span  class="text" >Pfam</span>
+      <span class="punto" style="color:#949494">●</span>
+      <span  class="text">Prints</span>
+      <span class="punto" style="color:#b3b3b3">●</span>
+      <span  class="text">Smart</span>
+      <span class="punto" style="color:#d3d3d3">●</span>
+      <span class="text">Superfamily</span>
+    </div>
+
+    <div id="chart-domain"></div>
+  </div>
+
+  <div id="exon">
+    <label>Exons</label>
+    <div id="chart-exon"></div>
+  </div>
+
+  <div id="variation">
+    <label>Variations</label>
+    <div id="chart"></div>
+    <div id="tooltip-variation" class="hidden">
+          <div><span>ID</span> <span id="variationname"></span></div>
+        <div><span id="type"></span></div>
+        <hr>
+        <div><span>codon</span> <span id="codon"></span></div>
+        <div><span>residue</span> <span id="residues"></span></div>
+        <div><span>Alleles</span> <span id="allelles"></span></div>
+      </div>
+  </div>
+
+</section>
+
+
+<footer>
+
+
+</footer>
